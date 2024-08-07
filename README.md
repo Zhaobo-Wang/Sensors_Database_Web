@@ -40,7 +40,6 @@ This project focuses on developing a sensor-based system utilizing various senso
 
 This project highlights my ability to integrate hardware and software components, demonstrating proficiency in circuit design, microcontroller programming, data management, backend development with Django, frontend development with React, and full-stack integration for a comprehensive sensor data management system.
 
-##中文版
 
 ### 项目背景
 
