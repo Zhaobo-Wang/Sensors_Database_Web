@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Sensor Portal</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Display Sensor Portal</h1>
+    <div class="button-group">
+      <button onclick="fetchSensors()" class="button-fetch">Fetch Sensors</button>
+      <button onclick="fetchMeasurements()" class="button-fetch">Fetch Measurements</button>
+      <button onclick="showChart()" class="button-fetch">Show Chart</button>
+    </div>
+    <div class="search-group">
+      <input type="text" id="query" placeholder="Search...">
+      <button onclick="searchSensors()">Search Sensors By Type</button>
+      <button onclick="searchMeasurements()">Search Measurements By TimeZone</button>
+    </div>
+  </header>
+  <main>
+    <section id="sensors-section">
+      <h2>Sensors</h2>
+      <ul id="sensors-list"></ul>
+    </section>
+    <section id="measurements-section">
+      <h2>Measurements</h2>
+      <ul id="measurements-list"></ul>
+    </section>
+    <canvas id="myChart" width="400" height="200" style="display:none;"></canvas>
+  </main>
+  <script src="{% static 'script.js' %}"></script>
+</body>
+
+</html>
