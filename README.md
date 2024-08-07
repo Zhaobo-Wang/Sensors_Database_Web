@@ -1,6 +1,5 @@
 
-
-
+![Example Image](readme_image/fetch.png)
 
 ### Project Background
 
