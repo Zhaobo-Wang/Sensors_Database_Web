@@ -43,6 +43,25 @@ This project focuses on developing a sensor-based system utilizing various senso
 
 This project highlights my ability to integrate hardware and software components, demonstrating proficiency in circuit design, microcontroller programming, data management, backend development with Django, frontend development with React, and full-stack integration for a comprehensive sensor data management system.
 
+Here are some images during this project:
+
+![Example Image](readme_image/DHT11_circuit.png)
+Circuit Build Design DHT11
+
+![Example Image](readme_image/arduino_measurement.png)
+Arduino Measurement
+
+![Example Image](readme_image/backend_measurement.png)
+Python Django Backend API measurements 
+
+![Example Image](readme_image/backend_sensor.png)
+Python Django Backend API snesors
+
+![Example Image](readme_image/circuit_with_amplifier_LM358.png)
+Circuit Build Design Amplifier
+
+![Example Image](readme_image/SHOW_TABLE_data2.png)
+Show MySQL Table Results
 
 ### 项目背景
 
